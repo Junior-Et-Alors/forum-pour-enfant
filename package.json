@@ -1,0 +1,19 @@
+{
+  "name": "forum-pour-enfant",
+  "version": "1.0.0",
+  "description": "documents techniques :  - userstories -listes des routes -wireframes",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Junior-Et-Alors/forum-pour-enfant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Junior-Et-Alors/forum-pour-enfant/issues"
+  },
+  "homepage": "https://github.com/Junior-Et-Alors/forum-pour-enfant#readme"
+}

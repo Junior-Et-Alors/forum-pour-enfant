@@ -1,0 +1,29 @@
+header{
+ background-color:0e8471, 0.5;
+display: flex;
+align-items: baseline;
+justify-content: space-around;
+.logo-enfant{
+    width: 100px;
+    height: 100px;
+}
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    //mettre media querie colum pour petit ecran 
+    ul-footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .li-footer{
+        list-style: none;
+        font-size: 20px;
+        color: #316117;
+        background-color: #90b644 0.5;
+    }
+}
+
