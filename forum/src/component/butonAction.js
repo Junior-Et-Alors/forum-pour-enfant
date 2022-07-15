@@ -1,5 +1,5 @@
 import React from 'react';
-import '../scss/mixin.css';
+import '../scss/mixin.scss';
 
 function ButtonAction() {
   return (
