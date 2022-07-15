@@ -1,0 +1,36 @@
+@import '../../scss/mixin.scss';
+
+.login {
+  @include flexbox-column;
+  align-items: center;
+
+  .h1-login {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.container-login {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3rem;
+  width: 100%
+}
+
+.form-login {
+  @include flexbox-column;
+
+  .input-container-login {
+    @include flexbox-column;
+    border: 1px solid #316117;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    min-width: 200px;
+  }
+
+  .input-login {
+    border: none;
+    outline: none;
+    margin-top: .5rem;
+  }
+}
