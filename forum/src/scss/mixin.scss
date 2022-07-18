@@ -1,7 +1,7 @@
 @mixin button-action {
-  background-color: #e98341;
+  background-color: #e98341;
   font: #f2fefe, bold;
-  font-size
+  font-size: 16px;
   border-radius: 25px;
   &_--hover {
 background-color: #316117;
@@ -24,4 +24,12 @@ font-size: 25px;
 color: #90b644;
   font-size: 35px;
   text-decoration: underline;
+}
+
+
+// Flexbox
+
+@mixin flexbox-column {
+  display: flex;
+  flex-direction: column;
 }
