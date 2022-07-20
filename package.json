@@ -15,9 +15,5 @@
   "bugs": {
     "url": "https://github.com/Junior-Et-Alors/forum-pour-enfant/issues"
   },
-  "homepage": "https://github.com/Junior-Et-Alors/forum-pour-enfant#readme",
-  "dependencies": {
-    "@reduxjs/toolkit": "^1.8.3",
-    "react-redux": "^8.0.2"
-  }
+  "homepage": "https://github.com/Junior-Et-Alors/forum-pour-enfant#readme"
 }

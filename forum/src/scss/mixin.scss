@@ -1,27 +1,29 @@
+@import './variable.scss';
+
 @mixin button-action {
-  background-color: #e98341;
+  background-color: $orange;
   font: #f2fefe, bold;
   font-size: 16px;
   border-radius: 25px;
-  &_--hover {
-background-color: #316117;
+  &:hover {
+background-color: $dark-green;
   }
 }
 
 @mixin article-title {
-color: #316117;
+color: $dark-green;
   font-weight: bold;
   font-size: 40px;
   text-decoration: underline;
 }
 
 @mixin text {
-color: #316117;
+color: $dark-green;
 font-size: 25px;
 }
 
 @mixin subtitle {
-color: #90b644;
+color: $light-green;
   font-size: 35px;
   text-decoration: underline;
 }
