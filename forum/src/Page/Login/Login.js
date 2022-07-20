@@ -1,14 +1,20 @@
 import React from 'react';
 import ButtonAction from '../../component/ButtonAction/ButtonAction';
 import './Login.scss';
+import { useNavigate } from 'react-router-dom';
 
 export default function Login() {
-    
+  const navigate = useNavigate();
+
   const handleClick = (event) => {
     event.preventDefault();
     //Connexion
   };
- 
+
+  const navigateRegister = (event) => {
+    event.preventDefault();
+    navigate('/register');
+  };
 
   return (
     <div className='login'>
@@ -39,6 +45,7 @@ export default function Login() {
             />
           </form>
         </section>
+        <div className='form-separation' />
         <section className='student-login'>
           <h2>Élève</h2>
           <form action='' className='form-login'>
@@ -60,11 +67,16 @@ export default function Login() {
             </div>
             <ButtonAction
               onClick={(event) => handleClick(event)}
-              txt={'connexion'}
+              txt={'Connexion'}
             />
           </form>
         </section>
       </div>
+      <p>Pas encore inscrit ?</p>
+      <ButtonAction
+        onClick={(event) => navigateRegister(event)}
+        txt={'Inscription'}
+      />
     </div>
   );
 }
