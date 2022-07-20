@@ -1,19 +1,19 @@
-import {createSlice} from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
-export const  postSlice = createSlice({
+export const postSlice = createSlice({
   name: 'post',
   initialState: {
     allPost: [],
   },
   reducers: {
     getAllPost: (state, action) => {
-      state.allPost = [action.body]
+      state.allPost = [action.payload];
     },
     createAPost: (state, action) => {
-      state.allPost.push(action.body)
-    }
-  }
-})
+      state.allPost.push(action.payload);
+    },
+  },
+});
 
 // export const getAllpost = () => async (dispatch) => {
 //   /*
@@ -30,3 +30,5 @@ export const  postSlice = createSlice({
 //   dispatch(createAPost(newPost))
 // }
 
+export const postsData = (state) => state.post
+export default postSlice.reducer;

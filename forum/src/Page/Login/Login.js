@@ -1,5 +1,5 @@
 import React from 'react';
-import ButtonAction from '../../component/butonAction';
+import ButtonAction from '../../component/ButtonAction/ButtonAction';
 import './Login.scss';
 
 export default function Login() {
