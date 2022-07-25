@@ -1,0 +1,90 @@
+.ArticleThematique {
+  width: 98%;
+  margin: auto;
+  padding: 10px;
+  border: 2px solid #316117;
+  border-radius: 10px;
+
+}
+
+.ArticleResum {
+  display: flex;
+
+  .TextPresentation {
+    width: 40%;
+    text-align: center;
+
+    .TitleArticle {
+      margin: 20px;
+      font-size: 28px;
+    }
+
+    .Team {
+      font-weight: bold;
+      font-size: 18px;
+
+    }
+
+  }
+
+
+
+  .Resum {
+    font-size: 18px;
+    width: 66%;
+    margin: auto;
+    padding: 10px;
+    word-wrap: break-word;
+  }
+}
+
+
+/*button categories*/
+.Category {
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin: 50px;
+
+  .Principal {
+    display: block;
+    margin: 20px auto;
+  }
+
+  .buttonCategories {
+    display: flex;
+    margin: auto;
+    width: max-content;
+    flex-wrap: wrap;
+
+    .Food {
+      background-color: blue;
+    }
+
+    .City {
+      background-color: violet;
+    }
+
+    .Fun {
+      background-color: red;
+      color: black;
+    }
+
+    .Habits {
+      background-color: brown;
+    }
+
+    .Country {
+      background-color: orange;
+      color: black;
+    }
+
+    .Party {
+      background-color: green;
+    }
+  }
+
+}

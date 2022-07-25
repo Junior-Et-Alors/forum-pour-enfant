@@ -1,0 +1,120 @@
+.ArticleHeader{
+    width: 98%;
+    margin: auto;
+    background-color:#316117;
+  
+    border-radius : 10px;
+    text-align: center;
+    display: flex;
+  }
+  
+  .PresentArticle{
+    width: 70%;
+    text-align: center;
+    
+  }
+  .ArticleTitle{
+    margin:20px;
+    color:#fff;
+    font-size :45px;
+  }
+  
+  .Category{
+    background-color: orange;
+    color: aliceblue;
+    font-size: 16px;
+    padding:10px;
+    border-radius: 10px;
+    border:none;
+    margin: 50px;
+    
+  }
+  .AuthorName{
+    color: #90b644;
+    font-size: 20px;
+  }
+  
+  
+  .Article{
+    width: 95%;
+    margin: 20px auto;
+    padding:20px;
+    border: 2px solid #316117;
+  
+    border-radius : 10px;
+    text-align: justify;
+    display: flex;
+  }
+  
+  .ArticleText{
+    font-size: 18px;
+    width: 65%;
+    margin: auto;
+    text-align: left;
+    line-height: 1.5em;
+    word-wrap: break-word;
+  }
+  
+  .ArticleImage{
+      width: 30%;
+    border:  1px solid #316117;
+    border-radius: 10px;
+  }
+  
+  .Comments{ 
+  display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 20px auto;
+    padding:20px;
+    border: 2px solid #316117;
+  
+    border-radius : 10px;
+    text-align: justify;
+    display: flex;
+  }
+  
+  .CommentText{
+    display: flex;
+    display-wrap:wrap;
+    background-color: #90b644;
+    border-radius : 10px;
+    margin-top: 10px;
+    padding: 5px;
+   }
+  .Team {
+    font-weight: bold;
+    font-size: 18px;
+    width :30%;
+  }
+  
+  .TeamComment {
+    font-size: 18px;
+    width :66%;
+    margin: auto;
+  }
+  
+  .WritingComment{ 
+  display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 20px auto;
+    padding:20px;
+    border: 2px solid #316117;
+  
+    border-radius : 10px;
+    text-align: justify;
+    display: flex;
+  }
+  
+  .TitleWritingComment{
+    color:#316117;
+    font-size: 22px; 
+  }
+  
+  .TextAreaComment{
+     margin-left: 20px;
+    width: 80%;
+    border: 1px solid #316117;
+    border-radius: 10px;
+  }
