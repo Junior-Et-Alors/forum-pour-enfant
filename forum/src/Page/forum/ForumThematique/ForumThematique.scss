@@ -1,76 +1,110 @@
+$breakpoint-telephone: 420px;
+$breakpoint-tablet: 768px;
 
-.ArticleThematique{
+
+.ArticleThematique {
   margin: auto;
-  width:95%;
+  width: 95%;
   padding: 10px;
-  display:flex;
- 
-
-
-
-.ArticlePresentation{
- border: 2px solid #316117;
-  border-radius : 10px;
-  width:50%;
-  text-align: center;
-  
-
-
-.ArticleResum{
   display: flex;
 
-.TitleArticle{
-  margin:20px;
-  color:black;
-  font-size :28px;
+
+  .ArticlePresentation {
+    border: 2px solid #316117;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+
+
+
+    .ArticleResum {
+      display: flex;
+
+      .TitleArticle {
+        margin: 20px;
+        color: black;
+        font-size: 28px;
+      }
+
+      .Team {
+        font-weight: bold;
+        font-size: 18px;
+
+      }
+
+      .Resum {
+        font-size: 18px;
+        width: 66%;
+        margin: auto;
+        padding: 10px;
+        word-wrap: break-word;
+      }
+    }
+  }
+
+
+  .buttonCategories {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 30%;
+    flex-wrap: wrap;
+  }
+
+  .Category {
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px;
+
+  }
+
+  .Food {
+    background-color: blue;
+  }
+
+  .City {
+    background-color: violet;
+  }
+
+  .Fun {
+    background-color: red;
+    color: black;
+  }
+
+  .Habits {
+    background-color: brown;
+  }
+
+  .Country {
+    background-color: orange;
+    color: black;
+  }
+
+  .Party {
+    background-color: green;
+  }
+
+
+
+  @media (max-width: $breakpoint-tablet) {
+    .ArticleThematique {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .ArticlePresentation {
+      width: 80%;
+    }
+
+    .ArticleResum {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+    }
+
+  }
 }
-
-.Team {
-  font-weight: bold;
-  font-size: 18px;
-
-}
-
-.Resum {
-  font-size: 18px;
-  width :66%;
-  margin: auto;
-  padding: 10px;
-  word-wrap: break-word;
-}
-}
-}
-
-
-.buttonCategories{
-  display:flex;
-  flex-direction:column;
-  margin:auto;
-  width: 30%;
-  flex-wrap: wrap;
-}
-
-.Category{
-  color: aliceblue;
-  font-size: 16px;
-  font-weight: bold;
-  padding:10px;
-  border-radius: 10px;
-  border:none;
-  margin:20px;
-  
-}
-
-.Food{background-color: blue;}
-.City{background-color: violet;}
-.Fun{
-  background-color: red;
-color: black;}
-.Habits{background-color: brown;}
-.Country{
-  background-color: orange;
-color: black;}
-.Party{background-color: green;}
-
-}
-
