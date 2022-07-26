@@ -1,4 +1,5 @@
 @import '../../scss/mixin.scss';
+@import '../../scss/variable.scss';
 
 .login {
   @include flexbox-column;
@@ -8,29 +9,34 @@
     margin-top: 1rem;
     margin-bottom: 3rem;
   }
+
+  .register-link {
+    text-decoration: none;
+    color: orange;
+  }
 }
 
 .container-login {
   display: flex;
   justify-content: space-evenly;
   gap: 3rem;
-  width: 100%
+  width: 100%;
+  margin-bottom: 2rem;
+
+  .form-separation {
+    background-color: $light-blue;
+    width: 2px
+  }
 }
 
 .form-login {
   @include flexbox-column;
 
   .input-container-login {
-    @include flexbox-column;
-    border: 1px solid #316117;
-    padding: .5rem;
-    margin-bottom: 1rem;
-    min-width: 200px;
+    @include auth-input-container;
   }
 
   .input-login {
-    border: none;
-    outline: none;
-    margin-top: .5rem;
+    @include auth-input;
   }
 }
