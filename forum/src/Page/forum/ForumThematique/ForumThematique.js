@@ -6,37 +6,37 @@ import './ForumThematique.scss';
 function ForumThematique() {
     return (
         <>
-            <div class="ArticleThematique">
+            <div className="ArticleThematique">
 
-                <section class="ArticlePresentation">
-                    <div class="ArticleResum">
-                        <h1 class="TitleArticle">Titre de l'article</h1>
-                        <p class="Team"> TeamName, date, country</p>
-                        <p class="Resum"> blaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa </p>
+                <section className="ArticlePresentation">
+                    <div className="ArticleResum">
+                        <h1 className="TitleArticle">Titre de l'article</h1>
+                        <p className="Team"> TeamName, date, country</p>
+                        <p className="Resum"> blaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa </p>
                     </div>
 
-                    <div class="ArticleResum">
-                        <h1 class="TitleArticle">Titre de l'article</h1>
-                        <p class="Team">TeamName, date, country</p>
-                        <p class="Resum"> blaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa </p>
+                    <div className="ArticleResum">
+                        <h1 className="TitleArticle">Titre de l'article</h1>
+                        <p className="Team">TeamName, date, country</p>
+                        <p className="Resum"> blaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa </p>
                     </div>
 
-                    <div class="ArticleResum">
+                    <div className="ArticleResum">
 
-                        <h1 class="TitleArticle">Titre de l'article</h1>
-                        <p class="Team"> TeamName, date, country</p>
-                        <p class="Resum"> blaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa </p>
+                        <h1 className="TitleArticle">Titre de l'article</h1>
+                        <p className="Team"> TeamName, date, country</p>
+                        <p className="Resum"> blaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa </p>
                     </div>
-                    <div class="ArticleResum">
-                        <h1 class="TitleArticle">Titre de l'article</h1>
-                        <p class="Team"> TeamName, date, country</p>
-                        <p class="Resum"> blaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa </p>
+                    <div className="ArticleResum">
+                        <h1 className="TitleArticle">Titre de l'article</h1>
+                        <p className="Team"> TeamName, date, country</p>
+                        <p className="Resum"> blaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa </p>
                     </div>
 
-                    <div class="ArticleResum">
-                        <h1 class="TitleArticle">Titre de l'article</h1>
-                        <p class="Team">TeamName, date, country</p>
-                        <p class="Resum"> blaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa </p>
+                    <div className="ArticleResum">
+                        <h1 className="TitleArticle">Titre de l'article</h1>
+                        <p className="Team">TeamName, date, country</p>
+                        <p className="Resum"> blaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa </p>
                     </div>
 
 
@@ -44,13 +44,13 @@ function ForumThematique() {
 
 
 
-                <div class="buttonCategories">
-                    <Button class="Category City "> Ma ville </Button>
-                    <Button class="Category Food"> Chez moi, on mange </Button>
-                    <Button class="Category Fun"> Ce que j'aime faire </Button>
-                    <Button class="Category Habits"> La ou je vis </Button>
-                    <Button class="Category Country"> Dans mon pays, il y a </Button>
-                    <Button class="Category Party"> La fete chez moi </Button>
+                <div className="buttonCategories">
+                    <Button className="Category City "> Ma ville </Button>
+                    <Button className="Category Food"> Chez moi, on mange </Button>
+                    <Button className="Category Fun"> Ce que j'aime faire </Button>
+                    <Button className="Category Habits"> La ou je vis </Button>
+                    <Button className="Category Country"> Dans mon pays, il y a </Button>
+                    <Button className="Category Party"> La fete chez moi </Button>
 
                 </div>
             </div>

@@ -48,8 +48,9 @@
   border-radius: 10px;
   border: none;
   margin: 50px;
-
-  .Principal {
+   width: max-content;
+  
+   .Principal {
     display: block;
     margin: 20px auto;
   }
@@ -57,7 +58,7 @@
   .buttonCategories {
     display: flex;
     margin: auto;
-    width: max-content;
+    width: 70%;
     flex-wrap: wrap;
 
     .Food {
@@ -86,5 +87,6 @@
       background-color: green;
     }
   }
-
+  
+  
 }
