@@ -1,0 +1,129 @@
+.Article__Header{
+    width: 98%;
+    margin: auto;
+    background-color:#316117;
+  
+    border-radius : 10px;
+    text-align: center;
+    display: flex;
+ 
+  
+  &__Presentation{
+    width: 70%;
+    text-align: center;
+    
+  }
+  &__ArticleTitle{
+    margin:20px;
+    color:#fff;
+    font-size :45px;
+  }
+
+  &__AuthorName{
+    color: #90b644;
+    font-size: 20px;
+  }
+  .Category{
+    background-color: orange;
+    color: aliceblue;
+    font-size: 16px;
+    padding:10px;
+    border-radius: 10px;
+    border:none;
+    margin: 50px;
+    
+  }
+
+}
+  
+
+  
+  
+  .Article{
+    width: 95%;
+    margin: 20px auto;
+    padding:20px;
+    border: 2px solid #316117;
+  
+    border-radius : 10px;
+    text-align: justify;
+    display: flex;
+
+  &__Text{
+    font-size: 18px;
+    width: 65%;
+    margin: auto;
+    text-align: left;
+    line-height: 1.5em;
+    word-wrap: break-word;
+  }
+  
+  &__Image{
+      width: 30%;
+    border:  1px solid #316117;
+    border-radius: 10px;
+  }
+    }
+
+
+
+  .Comments{ 
+  display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 20px auto;
+    padding:20px;
+    border: 2px solid #316117;
+  
+    border-radius : 10px;
+    text-align: justify;
+    display: flex;
+  
+  
+  .Comment__Text{
+    display: flex;
+    display-wrap:wrap;
+    background-color: #90b644;
+    border-radius : 10px;
+    margin-top: 10px;
+    padding: 5px;
+   }
+  &__Team {
+    font-weight: bold;
+    font-size: 18px;
+    width :30%;
+  }
+  
+  &__Comment {
+    font-size: 18px;
+    width :66%;
+    margin: auto;
+  }
+  }
+
+
+
+  .Writing__Comment{ 
+  display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 20px auto;
+    padding:20px;
+    border: 2px solid #316117;
+  
+    border-radius : 10px;
+    text-align: justify;
+    display: flex;
+ 
+  
+  &__Title{
+    color:#316117;
+    font-size: 22px; 
+  }
+  
+  .TextAreaComment{
+     margin-left: 20px;
+    width: 80%;
+    border: 1px solid #316117;
+    border-radius: 10px;
+  } }

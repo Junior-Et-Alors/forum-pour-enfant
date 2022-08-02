@@ -1,0 +1,48 @@
+/*button categories*/
+.Category {
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 50px;
+     width: max-content;
+    
+     .Principal {
+      display: block;
+      margin: 20px auto;
+    }
+  
+    .buttonExercice {
+      display: flex;
+      margin: auto;
+      width: 70%;
+      flex-wrap: wrap;
+  
+      .Conjuguate {
+        background-color: blue;
+      }
+  
+      .See {
+        background-color: violet;
+      }
+  
+      .Read {
+        background-color: red;
+        color: black;
+      }
+  
+    
+      .Listen {
+        background-color: orange;
+        color: black;
+      }
+  
+      .Calculate {
+        background-color: green;
+      }
+    }
+    
+    
+  }

@@ -1,4 +1,4 @@
-.ArticleThematique {
+.Exercice__List {
   width: 98%;
   margin: auto;
   padding: 10px;
@@ -7,14 +7,14 @@
 
 }
 
-.Article__Presentation {
+.Exercice__Presentation {
   display: flex;
 
-    &__TextPresentation {
+    &__Text {
     width: 40%;
     text-align: center;
 
-    &__TitleArticle {
+    &__Title {
       margin: 20px;
       font-size: 28px;
     }

@@ -1,0 +1,51 @@
+/*button categories*/
+.Category {
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 50px;
+     width: max-content;
+    
+     .Principal {
+      display: block;
+      margin: 20px auto;
+    }
+  
+    .buttonCategories {
+      display: flex;
+      margin: auto;
+      width: 70%;
+      flex-wrap: wrap;
+  
+      .Food {
+        background-color: blue;
+      }
+  
+      .City {
+        background-color: violet;
+      }
+  
+      .Fun {
+        background-color: red;
+        color: black;
+      }
+  
+      .Habits {
+        background-color: brown;
+      }
+  
+      .Country {
+        background-color: orange;
+        color: black;
+      }
+  
+      .Party {
+        background-color: green;
+      }
+    }
+    
+    
+  }
